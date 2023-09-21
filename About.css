@@ -1,0 +1,94 @@
+#about {
+    background-image: url("../images/bg2nd.png");
+    background-repeat: no-repeat;
+    background-size: 1350px 800px;
+    width: 100%;
+    height: 800px;
+    background-color: #ffffff;  
+    scroll-snap-align: center;
+}
+
+#about div.About-Me {
+    padding-bottom: 100px;
+    margin-top: -50px;
+    text-align: center;
+    margin-left: 230px;
+    width: 60%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+
+#about div.About-Me h1{
+    color: #DF841C;
+    text-align: center;
+    font-size: 30px;
+}
+
+#about div.About-Me hr {
+    width: 200px;
+    height: 5px;
+    margin: auto;
+    background-color: #DF841C;
+    border-radius: 3px;
+}
+
+#about div.About-Me p {
+    padding-top: 20px;
+    font-size: 21px;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    margin: auto;
+  }
+
+#about div.PSP {   
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 80px;
+    background-color: rgb(255, 254, 254);
+}
+
+#about div.PSP div.psp-p {
+    width: 85%;
+    margin-left: 70px;
+  
+}
+
+#about div.PSP div.psp-p p {
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+}
+
+#about div.Angel {    
+    float: right;
+    width: 40%;
+    background-color: rgb(255, 254, 254);    
+}
+
+#about div.Angel {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#about div.PSP {    
+    width: 40%; 
+    height: 250px;
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+}
+
+#about div.Angel div.angelist {
+    width: 85%;
+    margin-left: 40px;
+}
+
+#about div.Angel div.angelist p {
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+    padding-bottom: 50px;
+}

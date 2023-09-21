@@ -1,0 +1,41 @@
+#home{
+    background-image: url("../images/sec.jpg");
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 700px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: 1367px 626.5px;
+    scroll-snap-align: center;
+}
+
+img.Design1 {
+    margin-top: 150px;
+    margin-left: 160px;
+    float: left;
+}
+
+.content {
+    width: 45%;
+    height: 350px;
+    margin-top: 200px;;
+    margin-right: 150px;
+    float: right;
+    
+}
+
+.content h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-bottom: 0px;
+    font-weight: bold;
+    color: #DF841C;
+}
+
+.content p {
+    margin-top: 30px;
+    font-size: 21px;
+    line-height: 30px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}

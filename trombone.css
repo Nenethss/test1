@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar {
+    display: flex;
+    width: 100%;
+    min-height: 75px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+#nav-bar {
+    position: fixed;
+    display: contents;
+}
+
+.logo {
+    width: 60vw;
+    min-width: 10vw;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+#nav-bar ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#nav-bar ul li {
+    list-style: none;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 230px;
+    margin-top: 50px;
+}
+
+#form {
+    display: block;
+}
+
+.motto {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+#email {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+
+#submit {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#submit:hover {
+    background-color: darkorange;
+    transition: 0.7s;       
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+
+.fa {
+    font-size: 3em;
+    font-family: "Font Awesome 5 Free";
+    color: darkorange;
+}
+
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 125px;
+    width: 80vw;
+}
+
+
+.grid {
+    display: flex;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.dif-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.product {
+    width: calc(100% / 3);
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;  
+}
+
+.product h3 {
+    background-color: #ddd;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product h2 {
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;;
+}
+
+.product ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.product ul li {
+    line-height: 1.5;
+    list-style: none;
+}
+
+#buy{
+    max-width: 100px;
+    width: 100%;
+    height: 40px;
+    margin: 25px 0 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#buy:hover {
+    background-color: darkorange;
+transition: 0.7s;
+}
+
+.footer {
+    margin-top: 70px;
+    height: 70px;
+    width: 100%;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.other {
+    padding: 10px;
+}
+
+.other ul {
+    display: flex;
+    align-items: center;
+}
+
+.other ul li {
+    display: flex;
+    align-items: center;  
+    padding: 0 10px; 
+    font-size: 15px;
+}
+
+.other p {
+    font-size: 13px;
+    margin-top: 5px;
+    color: #444;
+}
+
+@media (max-width: 780px) and (min-width: 375px) {
+    .nav-bar{
+        display: block;
+        height: 140px;
+    }
+
+    #header {
+        padding: 0;
+    }
+
+    #nav-bar {
+       display: flex;
+       margin-top: 130px;
+    }
+
+    .logo {
+        margin: 20px auto 0 ;
+    }
+
+    .logo img {
+        width: 300px;
+        height: 40px;
+    }
+
+    .hero {
+        margin-top: 100px;
+    }
+
+    #nav-bar ul {
+        width: 35vw;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    #nav-bar ul li {
+        list-style: none;
+        margin: 5px 0;
+        
+    }
+
+    .grid {
+        display: block;
+    }
+
+    .icon {
+        display: none;
+    }
+    
+    .desc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px auto;
+    }
+    
+    .desc p {
+        margin-top: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .dif-products { 
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product {
+        margin-top: 20px;
+        width: 300px;
+    }
+
+}
